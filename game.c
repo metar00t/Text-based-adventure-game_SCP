@@ -123,7 +123,7 @@ switch (choices)
     break;
 
     case 3:
-    printf("shutting down... \n");
+    printf("Das Programm wird nun beendet \n");
     break;
 
     default:
