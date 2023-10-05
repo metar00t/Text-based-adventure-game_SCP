@@ -33,6 +33,21 @@ void startGame()
     printf("\n \nSpiel wird gestartet: \n \n");
 }
 
+//Korrosives Loch
+
+void easter_egg_larry()
+{
+    const char *dateiname2 = "Larry.txt";
+
+    printf("\n\nDu springst elegant hinein und landest perfekt.\n");
+    printf("Du schaust dich um und siehst SCP-106 (auch Larry genannt).\n\n");
+    SCP(dateiname2);
+    printf("\n\nLarry war nicht erfreut das du in sein Loch gesprungen bist und zögert nicht lange dich zu töten.\n\n");
+    printf("Game Over (Du hast Larry gefunden! :D)\n\n");
+    printf("Infos zu SCP-106 sind im folgenden Link → ");
+    printf("file:///mnt/C/Users/adamsdav/Nextcloud/FIAE2023-1/Gruppenprojekte/SCP_Text-Based-Adventure_Game_Adams_Meyer_Huebscher/SCP-textadventure/SCP-Liste/SCP-106/SCP-106.html \n\n");
+}
+
 //Fehlermeldung sowie eine ungültige Eingabe getätigt wurde
 
 void debug()
