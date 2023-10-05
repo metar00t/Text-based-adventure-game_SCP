@@ -1,0 +1,4 @@
+Übersicht über die Dateinamen für SCP().
+
+dateiname1 = Peanut.txt
+dateiname2 = Larry.txt
