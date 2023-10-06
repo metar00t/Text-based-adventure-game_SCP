@@ -36,7 +36,9 @@ Allerdings brauchst du, um in diese Räume reinzukommen, einen Level drei keycar
 	Entscheidungsfrage: 
 Was möchtest du tun?
 Falls man in die Tür vor einem durch geht: 
-Als du die Tür öffnest siehst du ein großes Tor bei welchem nebendran dabei steht: Das dies SCP-914 ist und es ansich sicher ist diesen SCP zu nutzen. Aber da du noch keine Level 2 Keycard hast wird es für dich noch nicht möglich sein Wird es leider nicht möglich sein diesen wichtigen SCP nutzen zu können. Wie traurig wie schlecht du doch bist.
+Als du die Tür öffnest siehst du ein großes Tor bei welchem nebendran dabei steht: Das dies SCP-914 ist und es ansich sicher ist diesen SCP zu nutzen. 
+Aber da du noch keine Level 2 Keycard hast wird es für dich noch nicht möglich sein diesen wichtigen SCP nutzen zu können. 
+Wie traurig wie schlecht du doch bist.
 	Entscheidungsfrage:
 		Was möchtest du jetzt tun?
 (man kann nur ausprobieren ob sich die Türen öffnen oder zurück gehen.)

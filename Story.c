@@ -70,9 +70,9 @@ void h1_1_d_s()
     printf("den du dich der Tür näherst, dass sich vermutlich etwas besonderes dahinter verbirgt.\n\n");
     printf("Sowie du vor der Tür stehst, öffnest du ohne zu zögern die Tür und siehst in dem Raum\n");
     printf("4 weitere Türen die mit jeweils einer digitalen Kennzeichnung versehen sind:\n\n");
-    printf("SCP-427\n Level 3 Keycard benötigt.");
-    printf("SCP-860\n Level 3 Keycard benötigt.");
-    printf("SCP-714\n Level 3 Keycard benötigt.");
+    printf("SCP-427\n Level 3 Keycard benötigt.\n");
+    printf("SCP-860\n Level 3 Keycard benötigt.\n");
+    printf("SCP-714\n Level 3 Keycard benötigt.\n");
     printf("SCP-1025\nLevel 3 Keycard benötigt.\n\n");
     printf("In der Mitte ist allerdings eine unbeschriftete Tür, die schon offen und unbeleuchtet ist.\n");
     printf("Was ist deine Entscheidung?\n\n");
