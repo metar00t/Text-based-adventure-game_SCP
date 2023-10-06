@@ -1,0 +1,42 @@
+Skript:
+Erster Raum (Start):
+Du erwachst in einem Raum, der für dich wie eine Zelle aussieht.
+Wenn du dich umschaust, erkennst du die Leichen von deinen einstigen Kollegen, welche getötet wurden durch einen Genickbruch. Ohne dich näher zu fragen, was passiert ist, weißt du schon, dass du entkommen musst aus dieser Einrichtung.
+Entscheidung:
+Vor dir siehst du eine Tür: Möchtest du diese öffnen und durchgehen?
+Falls Nein:
+Du bist in die Zelle zurück gegangen und hast gewartet, was dazu geführt hat, dass du durch das MTF (Mobile Task Force) getötet wurdest.
+
+Falls Ja:
+ Du hast dich entschieden, die Tür zu öffnen und siehst einen leeren Flur vor dir.
+Flur 1:
+PLÖTZLICH bebt der ganze Komplex und du hörst durch einen Lautsprecher eine Stimme, die sagt: „Achtung an das gesamte Personal! Meldet euch unverzüglich bei "[Störsignal]" ”.
+Entscheidung:
+Voraus siehst du eine verschlossene Tür, durch die du durchgehen könntest. 
+	
+	Falls Nein = in den Startraum zurück:
+Du läufst verängstigt in den Raum mit den Leichen zurück und fragst dich, was du jetzt tun willst. 
+	Falls nicht, im Raum 2 Text oben abspielen.
+	Falls wieder in Raum 2: 
+Du gehst wieder in den Raum vor dir und fragst dich, ob du weitergehen willst.
+	Falls Ja:
+Raum 2:
+Vorsichtig öffnest du die Tür und siehst nichts Besonderes außer, dass ein großer Korrosiver Loch im Raum ist, wo du weißt, dass du da unter jeglichen Umständen nicht rein willst.
+
+Du siehst neben dem Loch drei Türen, die in drei Richtungen führen.
+Eine nach vorne, eine nach Links und eine die nach rechts führt.
+
+	Entscheidungsfrage:
+	Durch welche der drei Türen möchtest du hindurch laufen?
+		Falls man durch die Tür vor einem hindurch geht:
+Als du dich der Tür nährst spürst du schon das irgendetwas besonderes dahinter sein muss und ohne zu zögern öffnest du die Tür.
+
+Du kommst in einen Flur in welchem ganze 4 verschiedene SCP-Räume sind. Diese Räume beherbergen SCP-427, SCP-860, SCP-714, SCP-1025.
+Allerdings brauchst du, um in diese Räume reinzukommen, einen Level drei keycard.
+	Entscheidungsfrage: 
+Was möchtest du tun?
+Falls man in die Tür vor einem durch geht: 
+Als du die Tür öffnest siehst du ein großes Tor bei welchem nebendran dabei steht: Das dies SCP-914 ist und es ansich sicher ist diesen SCP zu nutzen. Aber da du noch keine Level 2 Keycard hast wird es für dich noch nicht möglich sein Wird es leider nicht möglich sein diesen wichtigen SCP nutzen zu können. Wie traurig wie schlecht du doch bist.
+	Entscheidungsfrage:
+		Was möchtest du jetzt tun?
+(man kann nur ausprobieren ob sich die Türen öffnen oder zurück gehen.)
