@@ -15,7 +15,11 @@ typedef struct {
 Item inventory[MAX_ITEMS];
 int itemCount = 0;
 
-// Function to add an item to the inventory
+/* 
+    Function to add an item to the inventory
+    Function arguments itemname for the name for the Item too add to the Inventory
+    quantity for the position of the Item
+*/
 void addItem(const char* itemName, int quantity) {
     if (itemCount < MAX_ITEMS) {
         strcpy(inventory[itemCount].name, itemName);
