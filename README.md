@@ -1,8 +1,10 @@
 # Übersicht
 
-## Checklist bevor man weiterarbeitet
+## Beachten wenn man diesen Repository erstmals clonen will
 
 - Zuerst muss alles via wsl home verzeichnis alles gezogen werden durch "git clone [URL]". 
+
+## Checklist bevor man weiterarbeitet
 
 - Bevor man generell weiterarbeitet, sollte immer der "git pull" befehl im Terminal ausgeführt werden (im Falle das ein User neue Änderungen vorgenommen hat)
 
