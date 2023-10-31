@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "inventar.h"
 #include "Story.c"
 /*
 Kürzel Siehe ReadMe Datei
@@ -31,6 +32,7 @@ void SCP(const char *dateiname)
 void startGame() 
 {
     printf("\n \nSpiel wird gestartet: \n \n");
+    r1_s();
 }
 
 //Korrosives Loch
@@ -66,58 +68,9 @@ int main()
 switch (choices)
 {
     case 1:
-        int choices;
-        startGame();
-        r1_s();
-        scanf("%d",&choices);
-        switch (choices)
-        {
-            case 1:
-            int choices;
-            r1_d_1();
-            h1_s();
-            scanf("%d",&choices);
-            switch(choices)
-            {
-                case 1:
-                int choices;
-                h1_d_1();
-                scanf("%d",&choices);
-                switch(choices)
-                {
-                    case 1:
-                    int choices;
-                    h1_1_d_s();
-                    scanf("%d",&choices);
-                    break;
+    startGame();
+    break;
 
-                    case 4:
-                    easter_egg_larry();
-                    break;
-                }
-                break;
-
-                case 2:
-                h1_d_2();
-                break;
-
-                default:
-                debug();
-                break;
-            }
-            break;
-            
-            case 2:
-            r1_d_2();
-            break;
-
-            default:
-            debug();
-            break;
-            
-        }
-        break;
-    
     case 2:
     credits();
     break;

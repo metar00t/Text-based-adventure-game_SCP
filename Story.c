@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 
 //Raum 1
@@ -33,7 +34,7 @@ void r1_d_2()
 void h1_s()
 {
     printf("PLÖTZLICH bebt der ganze Komplex und du hörst durch einen Lautsprecher eine Stimme, \n");
-    printf("die sagt:''Achtung an das gesamte Personal! Meldet euch unverzüglich bei [Störsignal]''. \n");
+    printf("die sagt:\"Achtung an das gesamte Personal! Meldet euch unverzüglich bei [Störsignal]\". \n");
     printf("Voraus siehst du eine weitere verschlossene Tür, die du öffnen könntest.\n\n");
     printf("Traust du dich diese Tür zu öffnen?\n");
 
