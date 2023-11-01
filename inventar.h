@@ -6,7 +6,8 @@
 #define ITEM_NAME_LENGTH 30
 
 // Define a structure for an item
-typedef struct {
+typedef struct 
+{
     char name[ITEM_NAME_LENGTH];
     int quantity;
 } Item;

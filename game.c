@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include "inventar.h"
 #include "Story.c"
 /*
@@ -59,16 +60,43 @@ void debug()
     printf("\n\nSCP-173 hat gesehen was du versucht hast und fand das nicht so toll...\n\n");
 }
 
+// Für Entscheidungssituationen
+
+int path2_o (char choice)
+{
+    if (choice == 'j')
+    {
+        return true;
+    }
+    else
+    if (choice == 'n')
+    {
+        return false;
+    }
+}
 
 int main()
 {
    int choices;
     Main_Menu();
     scanf("%d",&choices);
+
 switch (choices)
 {
     case 1:
+    char choice;
     startGame();
+    scanf("%s",&choice);
+    if(path2_o(choice))
+    {
+        h1_s();
+    }
+    else
+    {
+        r1_d_2();
+        exit(1);
+    }
+    
     break;
 
     case 2:
@@ -77,6 +105,7 @@ switch (choices)
 
     case 3:
     printf("Das Programm wird nun beendet \n");
+    exit(0);
     break;
 
     default:

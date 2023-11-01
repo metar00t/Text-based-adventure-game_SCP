@@ -17,11 +17,6 @@ void r1_s()
     printf("1. Ja \n2. Nein\n");
 }
 
-void r1_d_1()
-{
-    printf("\nDu hast dich entschieden, die Tür zu öffnen und siehst einen leeren Flur. \n");
-}
-
 void r1_d_2()
 {
     printf("\nDu bist in die Zelle zurück gegangen und wartest, was dazu geführt hat, \n");
@@ -33,6 +28,7 @@ void r1_d_2()
 
 void h1_s()
 {
+    printf("\nDu hast dich entschieden, die Tür zu öffnen und siehst einen leeren Flur. \n");
     printf("PLÖTZLICH bebt der ganze Komplex und du hörst durch einen Lautsprecher eine Stimme, \n");
     printf("die sagt:\"Achtung an das gesamte Personal! Meldet euch unverzüglich bei [Störsignal]\". \n");
     printf("Voraus siehst du eine weitere verschlossene Tür, die du öffnen könntest.\n\n");
@@ -97,7 +93,7 @@ void Main_Menu ()
     printf("3. Ende\n");
 
     printf("\nWas möchten Sie gerne tun? \n");
-    printf("Geben Sie dafür nur einer der Zahlen ein:");
+    printf("Geben Sie dafür nur einer der Zahlen ein: \n");
 }
 
 void credits()
