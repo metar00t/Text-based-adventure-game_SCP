@@ -75,9 +75,29 @@ int path2_o (char choice)
     }
 }
 
+int path4_o (char choice)
+{
+    if(choice == 'l')
+    {
+
+    }
+    else if (choice == 'v')
+    {
+        return true;
+    }
+    else if(choice == 'r')
+    {
+
+    }
+    else if(choice == 'o')
+    {
+        return true;
+    }
+}
+
 int main()
 {
-   int choices;
+    int choices;
     Main_Menu();
     scanf("%d",&choices);
 
@@ -96,6 +116,46 @@ switch (choices)
         r1_d_2();
         exit(1);
     }
+    
+    scanf("%s", &choice);
+    
+    if(path2_o(choice))
+    {
+        h1_d_1();
+    }
+    else
+    {
+        h1_d_2();
+        exit(2);
+    }
+
+    scanf("%s", &choice);
+
+    if(path4_o(choice))
+    {
+        if(choice == 'l')
+        {
+
+        }
+        else if(choice == 'v')
+        {
+            h1_1_d_s();
+        }
+        else if(choice == 'r')
+        {
+
+        }
+        else if(choice == 'o')
+        {
+            easter_egg_larry();
+            exit(3);
+        }
+    }
+
+
+
+
+
     
     break;
 
