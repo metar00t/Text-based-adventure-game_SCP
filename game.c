@@ -95,6 +95,34 @@ int path4_o (char choice)
     }
 }
 
+int path6_o (char choice)
+{
+    if(choice == 'v')
+    {
+        return true;
+    }
+    else if (choice == '1')
+    {
+        return true;
+    }
+    else if(choice == '2')
+    {
+        return true;
+    }
+    else if(choice == '3')
+    {
+        return true;
+    }
+    else if(choice == '4')
+    {
+        return true;
+    }
+    else if(choice == 'z')
+    {
+        return true;
+    } 
+}
+
 int main()
 {
     int choices;
@@ -103,53 +131,104 @@ int main()
 
 switch (choices)
 {
-    case 1:
-    char choice;
-    startGame();
-    scanf("%s",&choice);
-    if(path2_o(choice))
-    {
-        h1_s();
-    }
-    else
-    {
-        r1_d_2();
-        exit(1);
-    }
-    
-    scanf("%s", &choice);
-    
-    if(path2_o(choice))
-    {
-        h1_d_1();
-    }
-    else
-    {
-        h1_d_2();
-        exit(2);
-    }
+    case 1:    
+        char* playerLocation[99];
+        char choice;
+        startGame();
+        playerLocation[0] = "r1_s";
+        scanf("%s",&choice);
 
-    scanf("%s", &choice);
-
-    if(path4_o(choice))
+    for(int i = 0; i != 99; i++)
     {
-        if(choice == 'l')
+        if(strcmp(playerLocation[0], "r1_s") == 0)
         {
+            if(path2_o(choice))
+            {
+                h1_s();
+                scanf("%s", &choice);
+                playerLocation[0] = "h1_s";
+            }
+            else
+            {
+                r1_d_2();
+                exit(1);
+            }
+        }
+        
+        if(strcmp(*playerLocation, "h1_s") == 0)
+        {
+            if(path2_o(choice))
+            {
+                h1_d_1();
+                scanf("%s", &choice);
+                playerLocation[0] = "h1_d_1";
+            }
+            else
+            {
+                h1_d_2();
+                exit(2);
+            }
+        }
 
-        }
-        else if(choice == 'v')
+        if(strcmp(*playerLocation, "h1_d_1") == 0)
         {
-            h1_1_d_s();
+            if(path4_o(choice))
+            {
+                if(choice == 'l')
+                {
+                    scanf("%s", &choice);
+                }
+                else if(choice == 'v')
+                {
+                    h1_1_d_s();
+                    scanf("%s", &choice);
+                    playerLocation[0] = "h1_1_d_s";
+                }
+                else if(choice == 'r')
+                {
+                    scanf("%s", &choice);
+                }
+                else if(choice == 'o')
+                {
+                    easter_egg_larry();
+                    exit(3);
+                }
+            }
         }
-        else if(choice == 'r')
-        {
 
-        }
-        else if(choice == 'o')
+        if (strcmp(playerLocation[0], "h1_1_d_s") == 0)
         {
-            easter_egg_larry();
-            exit(3);
+            if(path6_o(choice))
+            {
+                if(choice == 'v')
+                {
+                    
+                }
+                else if (choice == '1')
+                {
+                    
+                }
+                else if(choice == '2')
+                {
+                    
+                }
+                else if(choice == '3')
+                {
+                    
+                }
+                else if(choice == '4')
+                {
+                    
+                }
+                else if(choice == 'z')
+                {
+                    h1_d_1();
+                    scanf("%s", &choice);
+                    playerLocation[0] = "h1_d_1";
+                } 
+            }
         }
+
     }
 
 
