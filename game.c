@@ -152,6 +152,7 @@ switch (choices)
 
     for(int i = 0; i != 99; i++)
     {
+        //Raum h1_s
         if(strcmp(*playerLocation, "r1_s") == 0)
         {
             if(path2_o(choice))
@@ -167,6 +168,7 @@ switch (choices)
             }
         }
         
+        //Raum h1_d_1
         if(strcmp(*playerLocation, "h1_s") == 0)
         {
             if(path2_o(choice))
@@ -182,6 +184,7 @@ switch (choices)
             }
         }
 
+        //Raum h1_d_1 decision nach welchem Raum
         if(strcmp(*playerLocation, "h1_d_1") == 0)
         {
             if(path4_o(choice))
@@ -208,6 +211,7 @@ switch (choices)
             }
         }
 
+        //Raum h1_1_d_s decision zu welchem Raum
         if (strcmp(*playerLocation, "h1_1_d_s") == 0)
         {
             if(path6_o(choice))
