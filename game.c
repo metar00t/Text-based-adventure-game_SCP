@@ -123,6 +123,18 @@ int path6_o (char choice)
     } 
 }
 
+//clear Funktion um das terminal aufzuräumen
+void clear(){
+    #if defined(__linux__) || defined(__unix__) || defined(__APPLE__)
+        system("clear");
+    #endif
+
+    #if defined(_WIN32) || defined(_WIN64)
+        system("cls");
+    #endif
+    }
+
+
 int main()
 {
     int choices;
@@ -140,7 +152,7 @@ switch (choices)
 
     for(int i = 0; i != 99; i++)
     {
-        if(strcmp(playerLocation[0], "r1_s") == 0)
+        if(strcmp(*playerLocation, "r1_s") == 0)
         {
             if(path2_o(choice))
             {
@@ -196,7 +208,7 @@ switch (choices)
             }
         }
 
-        if (strcmp(playerLocation[0], "h1_1_d_s") == 0)
+        if (strcmp(*playerLocation, "h1_1_d_s") == 0)
         {
             if(path6_o(choice))
             {
