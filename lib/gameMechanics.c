@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include "inventar.h"
 #include "Story.c"
-#inlcude ""
+
 
 // Spielstart
 void startGame() 
@@ -12,7 +12,7 @@ void startGame()
     starting_room();
 }
 
-void SCP(const char *dateiname)
+void SCP_FILEREADER(const char *dateiname)
 {
     FILE *datei = fopen(dateiname, "r");
 
@@ -37,11 +37,11 @@ void SCP(const char *dateiname)
 
 void easter_egg_larry()
 {
-    const char *dateiname2 = "Larry.txt";
+    const char *larry = "Larry.txt";
 
     printf("\n\nDu springst elegant hinein und landest perfekt.\n");
     printf("Du schaust dich um und siehst SCP-106 (auch Larry genannt).\n\n");
-    SCP(dateiname2);
+    SCP_FILEREADER(larry);
     printf("\n\nLarry war nicht erfreut das du in sein Loch gesprungen bist und zögert nicht lange dich zu töten.\n\n");
     printf("Game Over (Du hast Larry gefunden! :D)\n\n");
     printf("Infos zu SCP-106 sind im folgenden Link → ");
@@ -52,8 +52,8 @@ void easter_egg_larry()
 
 void debug()
 {
-    const char *dateiname1 = "peanut.txt";
-    SCP(dateiname1);
+    const char *peanut = "peanut.txt";
+    SCP_FILEREADER(peanut);
     printf("\n\nSCP-173 hat gesehen was du versucht hast und fand das nicht so toll...\n\n");
 }
 

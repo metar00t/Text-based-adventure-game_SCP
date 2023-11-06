@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "gameMechanics.c"
+#include "../../lib/gameMechanics.c"
 /*
 Kürzel Siehe ReadMe Datei
 */

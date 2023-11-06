@@ -6,3 +6,6 @@
     - Physisches Abbild bei Adams am Platz
     - Speicherdatei der Map auf Nextcloud
 - Notwendige Dateien erstellt bzw. bereitgestellt
+
+## 06.11.2023 - Adams
+- Beginn der Story.c Contents in einzelne Textdateien aufgeteilt
