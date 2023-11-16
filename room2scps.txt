@@ -1,0 +1,20 @@
+Du entscheidest dich dazu, die Tür vor dir zu nähern und spürst mit jedem Schritt,
+den du dich der Tür näherst, dass sich vermutlich etwas besonderes dahinter verbirgt.
+Sowie du vor der Tür stehst, öffnest du ohne zu zögern die Tür und siehst in dem Raum
+4 weitere Türen die mit jeweils einer digitalen Kennzeichnung versehen sind:
+SCP-427 - Level 3 Keycard benötigt.
+SCP-860 - Level 3 Keycard benötigt.
+SCP-714 - Level 3 Keycard benötigt.
+SCP-1025 - Level 3 Keycard benötigt.
+In der Mitte ist allerdings eine unbeschriftete Tür, die schon offen und unbeleuchtet ist.
+
+Was ist deine Entscheidung?
+
+Geh in den dunklen Raum
+Geh zurück zum Loch
+SCP-427 Kennzeichnung lesen
+SCP-860 Kennzeichnung lesen
+SCP-714 Kennzeichnung lesen
+SCP-1025 Kennzeichnung lesen
+
+===========================================================================================

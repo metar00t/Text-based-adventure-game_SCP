@@ -4,5 +4,7 @@ die sagt: "Achtung an das gesamte Personal! Meldet euch unverzüglich bei [Stör
 Voraus siehst du eine weitere verschlossene Tür, die du öffnen könntest.
 Traust du dich diese Tür zu öffnen?
 
-1. Ja
-2. Nein
+j. Ja
+n. Nein
+
+===========================================================================================

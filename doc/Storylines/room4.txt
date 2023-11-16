@@ -1,0 +1,14 @@
+Vorsichtig öffnest du die Tür und schaust dich um. 
+Du siehst einen weiteren Flur mit einem großen Loch der nur vor sich her korridiert.
+Du fragst dich wie tief das Loch ist, bist dennoch nicht neugierig genug es herauszufinden.
+Beim weiteren umsehen kannst du 3 Türen erkennen, weißt aber nicht ob sich dahinter was verbirgt.
+
+An welche der drei Türen möchtest du herantreten?
+
+1. Die Tür direkt vor dir.
+2. Die Tür zu deiner linken.
+3. Die Tür zu deiner rechten.
+4. Ich will doch ins Loch hüpfen...
+5. Ich will nochmal zurück.
+
+===========================================================================================
