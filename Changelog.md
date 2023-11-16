@@ -9,3 +9,6 @@
 
 ## 06.11.2023 - Adams
 - Beginn der Story.c Contents in einzelne Textdateien aufgeteilt
+
+## 16.11.2023 - Adams
+- Fortsetzung der Umstellung von den printf Funktionen in Story.c zu einzelnen .txt Dateien
