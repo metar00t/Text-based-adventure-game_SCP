@@ -49,27 +49,18 @@ void room2scps()
     SCP_FILEREADER(room2scps);
 }
 
-void Main_Menu ()
+void Main_Menu()
 {
-    printf("Hauptmenü:\n");
-    printf("1. Start\n");
-    printf("2. Credits\n");
-    printf("3. Ende\n");
+    const char *main_menu = "../../src/main_menu.txt";
 
-    printf("\nWas möchten Sie gerne tun? \n");
-    printf("Geben Sie dafür nur einer der Zahlen ein: \n");
+    SCP_FILEREADER(main_menu);
 }
 
 void credits()
 {
-    printf("Dieses Spiel wurde von 3 Azubis der Unterstufe FiAe entwickelt \n\n");
-    printf("Skript: Herr Meyer \n");
-    printf("Spieltester: Herr Hübscher \n");
-    printf("Coding: Herr Adams \n \n");
-    printf("↓↓↓ Herr Meyer hat sich die Zeit genommen und uns seine Version der Website bereitgestellt! ↓↓↓\n");
-    printf("Weblink Platzhalter \n\n");
+    const char *credits = "../../src/credits.txt";
 
-    printf("Wir hoffen das ihnen das Spiel gefallen hat :-) \n");
+    SCP_FILEREADER(credits);
 }
 
 // Spielstart

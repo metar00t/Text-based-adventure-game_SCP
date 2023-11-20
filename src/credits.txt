@@ -1,0 +1,11 @@
+===========================================================================================
+
+Dieses Spiel wurde von 2 Azubis der Unterstufe FiAe entwickelt
+
+Skriptwriting: Herr Meyer
+Coding: Herr Adams & Herr Meyer
+Spieltester: Herr Holldack (Ausbilder)
+
+Wir hoffen das Sie Spaß hatten und nicht allzu frustriert waren ;-)
+
+===========================================================================================
