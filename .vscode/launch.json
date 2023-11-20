@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "//wsl.localhost/Ubuntu/home/adams/Text-based-adventure-game_SCP",
-      "program": "//wsl.localhost/Ubuntu/home/adams/Text-based-adventure-game_SCP/build/Debug/outDebug",
+      "cwd": "//wsl.localhost/Ubuntu/home/adams/SCP/Text-based-adventure-game_SCP/src/test",
+      "program": "//wsl.localhost/Ubuntu/home/adams/SCP/Text-based-adventure-game_SCP/src/test/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

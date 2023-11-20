@@ -30,7 +30,7 @@ void room2_3()
 
 void room2_3_d_2()
 {
-    const char *room2_3_d_2 = "../../doc/Storylines/room2_d_2.txt";
+    const char *room2_3_d_2 = "../../doc/Storylines/room2_3_d_2.txt";
 
     SCP_FILEREADER(room2_3_d_2);
 }
