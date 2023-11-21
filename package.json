@@ -1,5 +1,13 @@
 {
-  "dependencies": {
-    "package-json": "^8.1.1"
+  "name": "setupPackage",
+  "version": "1.0.0",  
+  
+  "devDependencies": 
+    {
+    "auto-changelog": "*"
+    },
+  "scripts": 
+  {
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   }
 }
