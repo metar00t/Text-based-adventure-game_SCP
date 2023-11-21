@@ -2,6 +2,7 @@
 
 ##### Bug Fixes
 
+*  finally got it to work (67693a89)
 *  fixed the issue with the changelog script (ea0edee2)
 *  checking something (8bc45a27)
 
