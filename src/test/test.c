@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include "../../lib/Story.h"
+#include "../../lib/playerLocation.h"
+#include "../../lib/inventar.h"
 /*
 Kürzel Siehe ReadMe Datei
 */
@@ -18,7 +20,6 @@ int main()
 switch (choices)
 {
     case 1:    
-        char* playerLocation[99];
         char choice;
        // int choices;
 
@@ -28,7 +29,7 @@ switch (choices)
         {
             choices = 0;
         }
-
+            char* playerLocation[99];
             startGame();
             playerLocation[0] = "r1_s";
             scanf("%s",&choice);
