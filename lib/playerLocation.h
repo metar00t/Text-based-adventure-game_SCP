@@ -1,5 +1,5 @@
 #include <string.h>
-#include "Story.c"
+#include "Story.h"
 
 
 char* playerLocation[] = 

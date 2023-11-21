@@ -1,0 +1,14 @@
+===========================================================================================
+Als du die Tür öffnest, siehst du ein großes Tor, bei welchem nebendran steht:
+---------------------------
+SCP-914
+Sicherheiteinstufung: Safe
+---------------------------
+
+(Da du noch keine Level-2 Keycard besitzt, kannst du nicht diesen Raum betreten)
+
+Was ist dein nächster Schritt?
+
+- Die Tür genauer anschauen
+- Zum Vorherigen Raum zurückkehren
+===========================================================================================

@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "gameMechanics.c"
-
+#include "gameMechanics.h"
 
 
 /*Für die Namensgebung siehe playerLocation.h*/
@@ -49,6 +48,13 @@ void room2scps()
     SCP_FILEREADER(room2scps);
 }
 
+void room_914()
+{
+    const char *scp_914 = "../../doc/Storylines/scp_914.txt";
+
+    SCP_FILEREADER(scp_914);
+}
+
 void Main_Menu()
 {
     const char *main_menu = "../../src/main_menu.txt";
@@ -78,11 +84,7 @@ void easter_egg_larry()
 {
     const char *larry = "../../src/Larry.txt";
 
-    printf("\n\nDu springst elegant hinein und landest perfekt.\n");
-    printf("Du schaust dich um und siehst SCP-106 (auch Larry genannt).\n\n");
     SCP_FILEREADER(larry);
-    printf("\n\nLarry war nicht erfreut das du in sein Loch gesprungen bist und zögert nicht lange dich zu töten.\n\n");
-    printf("Game Over (Du hast Larry gefunden! :D)\n\n");
 }
 
 //Fehlermeldung sowie eine ungültige Eingabe getätigt wurde
@@ -90,6 +92,6 @@ void easter_egg_larry()
 void debug()
 {
     const char *peanut = "../../src/peanut.txt";
+
     SCP_FILEREADER(peanut);
-    printf("\n\nSCP-173 hat gesehen was du versucht hast und fand das nicht so toll...\n\n");
 }

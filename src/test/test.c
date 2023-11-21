@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../../lib/Story.c"
+#include "../../lib/Story.h"
 /*
 Kürzel Siehe ReadMe Datei
 */

@@ -7,7 +7,7 @@ dass du aus dieser Einrichtung entkommen musst.
 
 Vor dir siehst du eine Tür: Möchtest du diese öffnen und durchgehen?
 
-1. Ja
-2. Nein
+j. Ja
+n. Nein
 
 ===========================================================================================
